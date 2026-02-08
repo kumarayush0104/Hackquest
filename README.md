@@ -1,3 +1,7 @@
+## Team Name : Ayush Kumar
+## Event Name : HackQuest Revelation 2026
+
+
 # Trade Conflict Simulation Console
 
 A multi-agent trade conflict simulator with a live policy dashboard.
