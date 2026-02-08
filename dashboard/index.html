@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trade Conflict Simulation Console</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <div class="kicker">Geopolitical Economics Lab</div>
+        <h1>Trade Conflict Simulation Console</h1>
+        <div class="subhead">Autonomous multi-agent policy simulation | live research prototype</div>
+      </div>
+      <div class="status">
+        <div class="status-label">Round</div>
+        <div id="round" class="status-value">1</div>
+        <div class="status-label">Phase</div>
+        <div id="phase" class="status-value">Cold Start</div>
+        <div class="status-label">Timestamp</div>
+        <div id="timestamp" class="status-value">--</div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="panel wide">
+        <div class="panel-title">Live Policy Timeline</div>
+        <ul id="timeline" class="timeline"></ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Strategy Classification</div>
+        <div id="classification" class="classification">--</div>
+        <div class="panel-subtitle">Game Theory & Strategy Agent</div>
+        <div id="classification-memo" class="memo"></div>
+        <div id="payoff" class="memo"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Scenario Brief</div>
+        <div class="brief">
+          This simulation models tariff escalation and negotiation between export-driven
+          Country Alpha and import-dependent Country Beta. Agents publish internal policy
+          memos, update strategy posture, and learn from welfare impacts across rounds.
+        </div>
+        <button id="download-report" class="button">Download Round Report</button>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Learning Metrics</div>
+        <div class="metric">
+          <span>Alpha aggression</span>
+          <span id="alpha-aggression">--</span>
+        </div>
+        <div class="metric">
+          <span>Effectiveness score</span>
+          <span id="effectiveness-score">--</span>
+        </div>
+        <div id="learning-note" class="memo"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">System Health</div>
+        <div id="system-health" class="memo"></div>
+        <div class="panel-title">Agent Status</div>
+        <ul id="agent-status" class="status-list"></ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Trade Flow</div>
+        <canvas id="trade-flow" width="360" height="210"></canvas>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Welfare Impact</div>
+        <canvas id="welfare" width="360" height="210"></canvas>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Sector Heatmap</div>
+        <div id="heatmap" class="heatmap"></div>
+      </section>
+      <section class="panel wide">
+        <div class="panel-title">Country Positions</div>
+        <div class="country-grid">
+          <div class="country">
+            <div class="country-title">Country Alpha</div>
+            <div id="alpha-metrics" class="country-metrics"></div>
+          </div>
+          <div class="country">
+            <div class="country-title">Country Beta</div>
+            <div id="beta-metrics" class="country-metrics"></div>
+          </div>
+          <div class="country">
+            <div class="country-title">Country Gamma</div>
+            <div id="gamma-metrics" class="country-metrics"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel wide">
+        <div class="panel-title">Agent Activity Feed</div>
+        <ul id="feed" class="feed"></ul>
+      </section>
+
+      <section class="panel wide">
+        <div class="panel-title">Inter-Agent Messages</div>
+        <ul id="messages" class="feed"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
