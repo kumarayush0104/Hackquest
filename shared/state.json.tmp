@@ -1,0 +1,1029 @@
+{
+  "timestamp": "2026-02-08 13:50:17 IST",
+  "phase": "Strategic Adaptation",
+  "round": 4,
+  "classification": "Repeated Game",
+  "learning": {
+    "alpha_aggression": 0.23,
+    "effectiveness_score": -0.07566650097069134,
+    "note": "Policy effectiveness deteriorating; de-escalation bias increased."
+  },
+  "countries": {
+    "Country Alpha": {
+      "gdp": 2100.0,
+      "exports": {
+        "electronics": 202.08,
+        "automotive": 177.11,
+        "agriculture": 141.66,
+        "energy": 123.92,
+        "manufacturing": 159.4
+      },
+      "imports": {
+        "electronics": 154.56,
+        "automotive": 137.14,
+        "agriculture": 109.66,
+        "energy": 95.92,
+        "manufacturing": 123.4
+      },
+      "tariffs": {
+        "electronics": 0.5,
+        "automotive": 0.08,
+        "agriculture": 0.08,
+        "energy": 0.08,
+        "manufacturing": 0.08
+      },
+      "welfare": 94.69,
+      "political_pressure": 0.6,
+      "strategic_posture": "Export defense"
+    },
+    "Country Beta": {
+      "gdp": 1800.0,
+      "exports": {
+        "electronics": 157.44,
+        "automotive": 138.18,
+        "agriculture": 110.7,
+        "energy": 96.7,
+        "manufacturing": 124.44
+      },
+      "imports": {
+        "electronics": 188.07,
+        "automotive": 167.4,
+        "agriculture": 133.92,
+        "energy": 117.18,
+        "manufacturing": 150.66
+      },
+      "tariffs": {
+        "electronics": 0.5,
+        "automotive": 0.06,
+        "agriculture": 0.06,
+        "energy": 0.06,
+        "manufacturing": 0.06
+      },
+      "welfare": 95.13,
+      "political_pressure": 0.55,
+      "strategic_posture": "Import security"
+    },
+    "Country Gamma": {
+      "gdp": 1500.0,
+      "exports": {
+        "electronics": 135.21,
+        "automotive": 118.7,
+        "agriculture": 94.96,
+        "energy": 83.22,
+        "manufacturing": 106.96
+      },
+      "imports": {
+        "electronics": 121.97,
+        "automotive": 108.7,
+        "agriculture": 86.96,
+        "energy": 75.96,
+        "manufacturing": 97.7
+      },
+      "tariffs": {
+        "electronics": 0.5,
+        "automotive": 0.05,
+        "agriculture": 0.05,
+        "energy": 0.05,
+        "manufacturing": 0.05
+      },
+      "welfare": 95.68,
+      "political_pressure": 0.48,
+      "strategic_posture": "Coalition hedge"
+    }
+  },
+  "trade_flow": {
+    "electronics": 4.31,
+    "automotive": 4.47,
+    "agriculture": 4.31,
+    "energy": 3.97,
+    "manufacturing": 4.11
+  },
+  "welfare_impact": {
+    "Country Alpha": 94.69,
+    "Country Beta": 95.13,
+    "Country Gamma": 95.68
+  },
+  "events": [
+    {
+      "timestamp": "2026-02-08 13:50:11 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:09 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:11 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Country Gamma policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.437,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Phase Learning Update | round 3 | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "execute_simulation_round",
+          "generate_welfare_report",
+          "detect_equilibrium",
+          "trigger_event"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Phase update",
+      "memo": "Phase transition executed; monitoring welfare deltas and escalation thresholds.",
+      "topic": "scenario",
+      "payload": {
+        "round": 3,
+        "phase": "Learning Update",
+        "welfare": {},
+        "equilibrium": false
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:11 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Country Gamma policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.466,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:11 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Country Alpha policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.46,
+        "aggression": 0.2,
+        "effectiveness_score": -0.13
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:11 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Country Beta policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.476,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:05 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "monitor_trade_flows",
+          "detect_policy_changes",
+          "analyze_supply_chains",
+          "predict_market_impact"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Sector exposure update",
+      "memo": "Electronics sector experiencing compounding tariff shock; downstream inflation risk rising.",
+      "topic": "market",
+      "payload": {
+        "trade_flow": {
+          "electronics": 4.31,
+          "automotive": 4.47,
+          "agriculture": 4.31,
+          "energy": 3.97,
+          "manufacturing": 4.11
+        },
+        "market_impact": {},
+        "supply_chain": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:49:58 IST', 'source': 'Country Strategy Agent (Alpha)', 'topic': 'policy', 'title': 'Country Alpha policy update',  | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "detect_negotiation_window",
+          "generate_deal_proposal",
+          "evaluate_concession_value",
+          "manage_bargaining_round"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Negotiation assessment",
+      "memo": "No credible ZOPA; hold position while signaling limited rollback capacity.",
+      "topic": "negotiation",
+      "payload": {}
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:05 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "model_game_structure",
+          "find_nash_equilibrium",
+          "predict_response",
+          "calculate_payoff_matrix"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:12 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Strategic classification",
+      "memo": "Scenario classified as Repeated Game; escalation risk elevated. Recommend calibrated de-escalation with conditional rollback.",
+      "topic": "strategy",
+      "payload": {
+        "classification": "Repeated Game",
+        "payoff_matrix": {},
+        "equilibrium": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:13 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Phase Cold Start | round 4 | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "execute_simulation_round",
+          "generate_welfare_report",
+          "detect_equilibrium",
+          "trigger_event"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:13 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Phase update",
+      "memo": "Phase transition executed; monitoring welfare deltas and escalation thresholds.",
+      "topic": "scenario",
+      "payload": {
+        "round": 4,
+        "phase": "Cold Start",
+        "welfare": {},
+        "equilibrium": false
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:06 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "monitor_trade_flows",
+          "detect_policy_changes",
+          "analyze_supply_chains",
+          "predict_market_impact"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Sector exposure update",
+      "memo": "Electronics sector experiencing compounding tariff shock; downstream inflation risk rising.",
+      "topic": "market",
+      "payload": {
+        "trade_flow": {
+          "electronics": 4.31,
+          "automotive": 4.47,
+          "agriculture": 4.31,
+          "energy": 3.97,
+          "manufacturing": 4.11
+        },
+        "market_impact": {},
+        "supply_chain": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:49:58 IST', 'source': 'Country Strategy Agent (Beta)', 'topic': 'policy', 'title': 'Country Beta policy update', 'm | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "detect_negotiation_window",
+          "generate_deal_proposal",
+          "evaluate_concession_value",
+          "manage_bargaining_round"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Negotiation assessment",
+      "memo": "No credible ZOPA; hold position while signaling limited rollback capacity.",
+      "topic": "negotiation",
+      "payload": {}
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:06 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "model_game_structure",
+          "find_nash_equilibrium",
+          "predict_response",
+          "calculate_payoff_matrix"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Strategic classification",
+      "memo": "Scenario classified as Repeated Game; escalation risk elevated. Recommend calibrated de-escalation with conditional rollback.",
+      "topic": "strategy",
+      "payload": {
+        "classification": "Repeated Game",
+        "payoff_matrix": {},
+        "equilibrium": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:12 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Country Gamma policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.495,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:12 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Country Beta policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:12 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Country Alpha policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.484,
+        "aggression": 0.2,
+        "effectiveness_score": -0.13
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Phase Initial Shock | round 4 | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "execute_simulation_round",
+          "generate_welfare_report",
+          "detect_equilibrium",
+          "trigger_event"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:14 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Phase update",
+      "memo": "Phase transition executed; monitoring welfare deltas and escalation thresholds.",
+      "topic": "scenario",
+      "payload": {
+        "round": 4,
+        "phase": "Initial Shock",
+        "welfare": {},
+        "equilibrium": false
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Phase Escalation | round 4 | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "execute_simulation_round",
+          "generate_welfare_report",
+          "detect_equilibrium",
+          "trigger_event"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Phase update",
+      "memo": "Phase transition executed; monitoring welfare deltas and escalation thresholds.",
+      "topic": "scenario",
+      "payload": {
+        "round": 4,
+        "phase": "Escalation",
+        "welfare": {},
+        "equilibrium": false
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:14 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Country Alpha policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.2,
+        "effectiveness_score": -0.11
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:14 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Country Gamma policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:07 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "monitor_trade_flows",
+          "detect_policy_changes",
+          "analyze_supply_chains",
+          "predict_market_impact"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Sector exposure update",
+      "memo": "Electronics sector experiencing compounding tariff shock; downstream inflation risk rising.",
+      "topic": "market",
+      "payload": {
+        "trade_flow": {
+          "electronics": 4.31,
+          "automotive": 4.47,
+          "agriculture": 4.31,
+          "energy": 3.97,
+          "manufacturing": 4.11
+        },
+        "market_impact": {},
+        "supply_chain": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:14 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Country Beta policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:49:58 IST', 'source': 'Country Strategy Agent (Gamma)', 'topic': 'policy', 'title': 'Country Gamma policy update',  | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "detect_negotiation_window",
+          "generate_deal_proposal",
+          "evaluate_concession_value",
+          "manage_bargaining_round"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Negotiation assessment",
+      "memo": "No credible ZOPA; hold position while signaling limited rollback capacity.",
+      "topic": "negotiation",
+      "payload": {}
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:07 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "model_game_structure",
+          "find_nash_equilibrium",
+          "predict_response",
+          "calculate_payoff_matrix"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Strategic classification",
+      "memo": "Scenario classified as Repeated Game; escalation risk elevated. Recommend calibrated de-escalation with conditional rollback.",
+      "topic": "strategy",
+      "payload": {
+        "classification": "Repeated Game",
+        "payoff_matrix": {},
+        "equilibrium": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Phase Strategic Adaptation | round 4 | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "execute_simulation_round",
+          "generate_welfare_report",
+          "detect_equilibrium",
+          "trigger_event"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Scenario Execution Agent",
+      "title": "Phase update",
+      "memo": "Phase transition executed; monitoring welfare deltas and escalation thresholds.",
+      "topic": "scenario",
+      "payload": {
+        "round": 4,
+        "phase": "Strategic Adaptation",
+        "welfare": {},
+        "equilibrium": false
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:15 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Beta)",
+      "title": "Country Beta policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:49:59 IST', 'source': 'Country Strategy Agent (Beta)', 'topic': 'policy', 'title': 'Country Beta policy update', 'm | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "detect_negotiation_window",
+          "generate_deal_proposal",
+          "evaluate_concession_value",
+          "manage_bargaining_round"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Negotiation & Resolution Agent",
+      "title": "Negotiation assessment",
+      "memo": "No credible ZOPA; hold position while signaling limited rollback capacity.",
+      "topic": "negotiation",
+      "payload": {}
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:08 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "model_game_structure",
+          "find_nash_equilibrium",
+          "predict_response",
+          "calculate_payoff_matrix"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Game Theory & Strategy Agent",
+      "title": "Strategic classification",
+      "memo": "Scenario classified as Repeated Game; escalation risk elevated. Recommend calibrated de-escalation with conditional rollback.",
+      "topic": "strategy",
+      "payload": {
+        "classification": "Repeated Game",
+        "payoff_matrix": {},
+        "equilibrium": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:15 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Alpha)",
+      "title": "Country Alpha policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.23,
+        "effectiveness_score": -0.08
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:08 IST', 'source': 'Scenario Execution Agent', 'topic': 'scenario', 'title': 'Phase update', 'memo': 'Phase tran | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "monitor_trade_flows",
+          "detect_policy_changes",
+          "analyze_supply_chains",
+          "predict_market_impact"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Market Intelligence Agent",
+      "title": "Sector exposure update",
+      "memo": "Electronics sector experiencing compounding tariff shock; downstream inflation risk rising.",
+      "topic": "market",
+      "payload": {
+        "trade_flow": {
+          "electronics": 4.31,
+          "automotive": 4.47,
+          "agriculture": 4.31,
+          "energy": 3.97,
+          "manufacturing": 4.11
+        },
+        "market_impact": {},
+        "supply_chain": {}
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Internal memo",
+      "memo": "Observation captured: Recent events: [{'timestamp': '2026-02-08 13:50:15 IST', 'source': 'Market Intelligence Agent', 'topic': 'market', 'title': 'Sector exposure update', 'memo': 'E | Assessing welfare risks and political pressure signals.",
+      "topic": "thought",
+      "payload": {
+        "mode": "heuristic",
+        "tools": [
+          "evaluate_trade_position",
+          "calculate_tariff_impact",
+          "propose_policy_action",
+          "assess_retaliation_risk"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "source": "Country Strategy Agent (Gamma)",
+      "title": "Country Gamma policy update",
+      "memo": "Policy posture adjusted based on risk-weighted welfare outlook. Maintaining optionality for de-escalation if retaliation accelerates. Override executed to avoid policy inertia.",
+      "topic": "policy",
+      "payload": {
+        "action": "tariff_increase",
+        "sector": "electronics",
+        "rate": 0.5,
+        "aggression": 0.45,
+        "effectiveness_score": 0.0
+      }
+    }
+  ],
+  "policy_timeline": [
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "label": "Country Beta policy update"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:15 IST",
+      "label": "Negotiation assessment"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "label": "Phase update"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "label": "Country Beta policy update"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "label": "Negotiation assessment"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "label": "Country Alpha policy update"
+    },
+    {
+      "timestamp": "2026-02-08 13:50:17 IST",
+      "label": "Country Gamma policy update"
+    }
+  ],
+  "agent_status": {
+    "Country Strategy Agent (Alpha)": "idle",
+    "Country Strategy Agent (Beta)": "idle",
+    "Country Strategy Agent (Gamma)": "idle",
+    "Market Intelligence Agent": "idle",
+    "Game Theory & Strategy Agent": "idle",
+    "Negotiation & Resolution Agent": "idle",
+    "Scenario Execution Agent": "idle"
+  },
+  "system_health": {
+    "backend": "file"
+  }
+}
